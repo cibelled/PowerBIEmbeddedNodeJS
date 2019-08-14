@@ -13,6 +13,8 @@ Use one of the methods in **powerbi-api-calls-sample.js** to make the corespondi
    changed files and automatically restart the server
 3. execute command "npm install express --save". This command will create the server 
 4. execute command "npm install request -g"
+5. Execute command "npm install guid"
+6. Execute comman "npm install adal-node"
 
 
 #How to run test
