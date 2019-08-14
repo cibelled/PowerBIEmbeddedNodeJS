@@ -6,7 +6,7 @@ After registering an app, Fill config parameters under config.json.
 Use one of the methods in **powerbi-api-calls-sample.js** to make the coresponding api call.
 
 
-Additonal Installation using visual studio code editor
+#Additional Installation steps using visual studio code editor
 
 1. execute command "npm init" to create package.json if doesn't exists
 2. execute command "npm install --save-dev nodemon". This command helps us to keep track of changes to our application by watching   
@@ -15,7 +15,7 @@ Additonal Installation using visual studio code editor
 4. execute command "npm install request -g"
 
 
-Steps to run application
+#How to run test
 
 1. npm run start or node server.js
 2. Open browser and run: http://localhost:3000/test. This will display "this is test"
