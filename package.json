@@ -1,0 +1,18 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Contains several API calls samples for App Owns Data.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
