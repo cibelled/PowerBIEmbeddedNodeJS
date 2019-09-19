@@ -74,6 +74,7 @@ async function sendGetReportRequestAsync(url, options){
                     if(config.reportId){
                         console.log("Returned report name: " + getReportRes.name);
                         console.log("Returned report Id: " + getReportRes.id);
+                        console.log("Returned report url:" + url);
                         resolve(getReportRes);
                     } else {
                         if(getReportRes.value.length == 0) {
